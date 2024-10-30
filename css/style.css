@@ -92,6 +92,7 @@
     font-weight: 500;
     outline: none;
     transition: .5s;
+    
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -101,16 +102,22 @@
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary) !important;
+    
 }
 
 .navbar-dark .navbar-brand img {
-    max-height: 60px;
+    position: absolute;
+    max-height: 200px;
     transition: .5s;
+    top: -50px;
+    left: 100px;
 }
 
 .sticky-top.navbar-dark .navbar-brand img {
-    max-height: 45px;
+    max-height: 100px;
+    top: -20px;
 }
+
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
@@ -129,9 +136,14 @@
     }
 
     .navbar-dark .navbar-brand img {
-        max-height: 45px;
+        max-height: 100px;
+        top: -20px;
+        left: 18px;
     }
 }
+
+
+
 
 @media (min-width: 992px) {
     .navbar-dark {
@@ -152,7 +164,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/hero-bg.jfif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,8 +225,14 @@
     transition: .5s;
 }
 
+.service-item .p-4 {
+    flex-grow: 1;
+    overflow: visible; /* Ensures the text doesn't get hidden */
+}
+
 .service-item:hover {
     background: var(--primary);
+    cursor: pointer;
 }
 
 .service-item * {
@@ -223,6 +241,7 @@
 
 .service-item:hover * {
     color: var(--light) !important;
+    cursor: pointer;
 }
 
 
@@ -231,13 +250,23 @@
     border-bottom: 2px solid var(--primary);
 }
 
+@media (max-width: 768px) {
+    .d-flex.align-items-center.flex-column img {
+        width: 100%; /* Adjusts image width on smaller screens */
+    }
+    .d-flex.align-items-center.flex-column .ps-4 {
+        padding-left: 0; /* Resets padding for better alignment */
+    }
+}
+
+
 
 /*** Youtube Video ***/
 .video {
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/reservation.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant Template</title>
+    <title>Devine-House-Resturant</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/logo.png" rel="icon"   sizes="128x128">
+
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,8 +48,8 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <!-- <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1> -->
+            <img src="img/logo.png" alt="Logo"   >
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -60,16 +61,16 @@
                         <a href="service.html" class="nav-item nav-link">Service</a>
                         <a href="menu.html" class="nav-item nav-link active">Menu</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Extra</a>
                             <div class="dropdown-menu m-0">
                                 <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4">Order Now</a>
+
                 </div>
             </nav>
 
@@ -78,8 +79,8 @@
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
                             <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
                         </ol>
                     </nav>
@@ -126,307 +127,543 @@
                             </a>
                         </li>
                     </ul>
+                    
                     <div class="tab-content">
+                        <!-- Breakfast start -->
                         <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
+                            <div class="row g-4 justify-content-center align-items-center" > <!-- Added justify-content-center and align-items-center -->
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/akara-pap.jfif" alt="" style="width: 250px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Akara & Pap</span>
+                                                <span class="text-primary">$10</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">
+                                                Enjoy a traditional Nigerian breakfast of crunchy, golden-brown akara (bean cakes) and smooth, creamy pap (fermented corn pudding). A great balance of savory and sweet flavors that is both light and satisfying. Ideal for a nutritious start to the day.
+                                            </small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- //add more breakfast contents here // -->
                             </div>
                         </div>
+                        <!-- Breakfast end  -->
+
+                        <!-- Lunch menu start  -->
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/egusi-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Egusi soup with a choice of Poundo, Wheat, Oat, Eba or Amala</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">
+                                                A rich and flavorful Nigerian delicacy made with ground melon seeds, vegetables, and tender meat. Served with your choice of Poundo, Wheat, Oat, Eba, or Amala, this hearty dish offers a perfect balance of bold, earthy flavors and smooth textures. Customize it to your liking and enjoy an authentic taste of tradition.
+                                            </small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/okra-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Okra Soup with a choice of Poundo, Wheat, Eba, Amala or Oat</span>
+                                                <span class="text-primary">$16</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A classic Nigerian favorite, this flavorful soup is made with tender okra, seasoned with aromatic spices, and simmered with seafood, meat, or fish for a rich and savory taste. Served with your choice of Poundo, Wheat, Eba, Amala, or Oat, this dish is loved for its smooth texture and wholesome goodness, perfect for a hearty, comforting meal.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/black-soup.jpeg" alt="" style="width: 200px;">
+                                         <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Black Soup with a choice of Starch, Poundo, Wheat or Oat</span>
+                                                <span class="text-primary">$17</span>
+                                            </h5>
+                                            <small class="fst-italic">A bold and aromatic soup from Southern Nigeria, made with a unique blend of traditional herbs and spices, delivering an intense, savory flavor. Enjoy it with your choice of Starch, Poundo, Wheat, or Oat for a truly authentic and deeply satisfying meal that’s rich in cultural heritage.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/vegetable-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetable Soup with a choice of Poundo, Eba, Wheat, Oat, Fufu, Amala</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A colorful and nutritious soup made with a medley of fresh, leafy greens, simmered to perfection with spices and tender meat or fish. Pair it with your choice of Poundo, Eba, Wheat, Oat, Fufu, or Amala for a wholesome and satisfying meal that celebrates the richness of Nigerian flavors.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/banga-soup-starch.jfif" alt="" style="width : 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Banga Soup with Catfish & Starch</span>
+                                                <span class="text-primary">$18</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Experience the rich, earthy flavors of Banga Soup, a traditional dish made from fresh palm nut extract, infused with aromatic spices and herbs. Paired with succulent catfish, this soup offers a delicate balance of savory and spicy notes. Enjoy it with smooth, satisfying Starch for an authentic taste of the Niger Delta region.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/peanut-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Peanut Soup with a choice of Fufu, Poundo or Rice balls </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A creamy and flavorful West African delicacy made from ground peanuts, simmered with rich spices and tender meat or fish for a comforting and savory experience. Served with your choice of Fufu, Poundo, or Rice Balls, this dish is a perfect blend of nutty flavors and hearty textures, offering a truly satisfying and nourishing meal.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Jollof-rice.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Jollof Rice with a choice of Chicken, Turkey, Beef or Goat Meat </span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A lively and savory West African meal created from perfectly seasoned rice and a creamy tomato sauce. This tasty dinner, which comes with your choice of succulent chicken, turkey, beef, or goat meat, is a crowd favorite that never fails to impress.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fried-rice.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Shrimp or Gizzard Fried Rice with a choice  Chicken, Turkey, Goat Meat or Beef</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Deliciously seasoned fried rice loaded with either juicy shrimp or tender gizzard, stir-fried with vegetables for a burst of flavor. Pair it with your choice of Chicken, Turkey, Goat Meat, or Beef for a satisfying meal that's packed with savory goodness.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/white-rice-stew.jpg" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Jasmine or Perboiled Rice with Goat Meat Stew</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Indulge in fragrant Jasmine or hearty Parboiled Rice served with a rich and spicy Goat Meat Stew. This dish features tender chunks of goat meat simmered in a savory tomato-based sauce, creating a perfect harmony of flavors that complements the rice beautifully.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                   <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ofada-stew.jfif" alt="" style="width: 200px;">
+                                       <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Ofada Stew with white Rice</span>
+                                                <span class="text-primary">$16</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Enjoy the spicy and distinct flavors of Ofada Stew, a classic Nigerian dish consisting with green bell peppers, spices, and delicious beef pieces. This dinner, served with fluffy white rice, features a delectable blend of spicy, earthy elements that will tickle your taste buds.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/beans-plantain.jfif" alt="" style="width: 200px;">
+                                       <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Beans and plantain with Beef </span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A hearty and nutritious dish featuring tender beans cooked to perfection, complemented by sweet, ripe plantains and succulent beef. This flavorful combination delivers a satisfying mix of textures and tastes, making it a wholesome meal that’s both comforting and filling.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/moi-moi.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Moi Moi</span>
+                                                <span class="text-primary">$6</span>
+                                            </h5>
+                                            <small class="fst-italic">A tasty and healthful steaming bean pudding cooked with black-eyed peas, peppers, and spices. This traditional Nigerian dish is frequently enhanced with onions, tomatoes, and your choice of proteins, resulting in a delicious, aromatic pleasure that may be served on its own or as a side dish.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/yam-pottage.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Yam Pottage </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A healthy and tasty dish produced with yam cubes cooked in a creamy, delicious sauce filled with spices and vegetables. This hearty pottage mixes the creamy smoothness of yam with a deliciously seasoned broth, giving it a filling meal suitable for any time of day.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/yam-egg-sauce.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Yam & Egg Sauce or Stew </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A delightful combination of soft, boiled yam served with a rich and flavorful egg sauce or stew. This dish features scrambled eggs cooked in a delicious tomato and pepper sauce, creating a satisfying and hearty meal that perfectly complements the creamy texture of the yam.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/waakye.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Waakye</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A traditional Ghanaian dish made from rice and beans, cooked together for a unique flavor and hearty texture. Often served with a variety of accompaniments such as fried plantains, stewed meats, spicy pepper sauce, and boiled eggs, Waakye is a fulfilling meal that captures the essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/assorted-pepper-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Assorted pepper soup</span>
+                                                <span class="text-primary">$18</span>
+                                            </h5>
+                                            <small class="fst-italic">A fragrant and spicy broth made with a mix of assorted meats, including goat, beef, and chicken, simmered with bold spices and aromatic herbs. This hearty and warming pepper soup is perfect as an appetizer or main dish, offering a delightful kick that is both comforting and invigorating.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/peppered-snail.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Peppered snail </span>
+                                                <span class="text-primary">$19</span>
+                                            </h5>
+                                            <small class="fst-italic">Succulent snails sautéed in a rich and spicy pepper sauce, infused with aromatic spices and herbs. This delicacy offers a unique combination of flavors and textures, making it a tantalizing appetizer or snack that highlights the bold essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                   <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/beef-suya.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Beef suya</span>
+                                                <span class="text-primary">$16</span>
+                                            </h5>
+                                            <small class="fst-italic">Deliciously spiced skewered beef, grilled to perfection and bursting with flavor. Marinated in a blend of traditional spices and chili, this popular Nigerian street food is served with fresh onions and tomatoes, offering a smoky, savory bite that’s both satisfying and irresistible.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                   <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/chicken-suya.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken suya</span>
+                                                <span class="text-primary">$16</span>
+                                            </h5>
+                                            <small class="fst-italic">Pieces of chicken marinated in a rich blend of spices and grilled to perfection. This flavorful street food favorite is infused with a spicy kick and served with sliced onions and tomatoes, making it a deliciously satisfying snack or appetizer that captures the essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- lunch menu ends  -->
+
+                         <!-- dinner menu starts -->
                         <div id="tab-3" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Jollof-rice.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Jollof Rice with a choice of Chicken, Turkey, Beef or Goat Meat </span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A lively and savory West African meal created from perfectly seasoned rice and a creamy tomato sauce. This tasty dinner, which comes with your choice of succulent chicken, turkey, beef, or goat meat, is a crowd favorite that never fails to impress.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fried-rice.jfif" alt="" style="width: 200px;">
+                                       <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Shrimp or Gizzard Fried Rice with a choice  Chicken, Turkey, Goat Meat or Beef</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Deliciously seasoned fried rice loaded with either juicy shrimp or tender gizzard, stir-fried with vegetables for a burst of flavor. Pair it with your choice of Chicken, Turkey, Goat Meat, or Beef for a satisfying meal that's packed with savory goodness.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/white-rice-stew.jpg" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Jasmine or Perboiled Rice with Goat Meat Stew</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Indulge in fragrant Jasmine or hearty Parboiled Rice served with a rich and spicy Goat Meat Stew. This dish features tender chunks of goat meat simmered in a savory tomato-based sauce, creating a perfect harmony of flavors that complements the rice beautifully.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                   <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ofada-stew.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Ofada Stew with white Rice</span>
+                                                <span class="text-primary">$16</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Enjoy the spicy and distinct flavors of Ofada Stew, a classic Nigerian dish consisting with green bell peppers, spices, and delicious beef pieces. This dinner, served with fluffy white rice, features a delectable blend of spicy, earthy elements that will tickle your taste buds.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/beans-plantain.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Beans and plantain with Beef </span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A hearty and nutritious dish featuring tender beans cooked to perfection, complemented by sweet, ripe plantains and succulent beef. This flavorful combination delivers a satisfying mix of textures and tastes, making it a wholesome meal that’s both comforting and filling.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/moi-moi.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Moi Moi</span>
+                                                <span class="text-primary">$6</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A tasty and healthful steaming bean pudding cooked with black-eyed peas, peppers, and spices. This traditional Nigerian dish is frequently enhanced with onions, tomatoes, and your choice of proteins, resulting in a delicious, aromatic pleasure that may be served on its own or as a side dish.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/egusi-soup.jfif" alt="" style="width: 200px;">
+                                       <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Egusi soup with a choice of Poundo, Wheat, Oat, Eba or Amala</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A rich and flavorful Nigerian delicacy made with ground melon seeds, vegetables, and tender meat. Served with your choice of Poundo, Wheat, Oat, Eba, or Amala, this hearty dish offers a perfect balance of bold, earthy flavors and smooth textures. Customize it to your liking and enjoy an authentic taste of tradition.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/vegetable-soup.jfif" alt="" style="width: 200px; ">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Vegetable Soup with a choice of Poundo, Eba, Wheat, Oat, Fufu, Amala</span>
+                                                <span class="text-primary">$15</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A Colorful and nutritious soup made with a medley of fresh, leafy greens, simmered to perfection with spices and tender meat or fish. Pair it with your choice of Poundo, Eba, Wheat, Oat, Fufu, or Amala for a wholesome and satisfying meal that celebrates the richness of Nigerian flavors.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/black-soup.jpeg" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Black Soup with a choice of Starch, Poundo, Wheat or Oat</span>
+                                                <span class="text-primary">$17</span>
+                                            </h5>
+                                            <small class="fst-italic">A bold and aromatic soup from Southern Nigeria, made with a unique blend of traditional herbs and spices, delivering an intense, savory flavor. Enjoy it with your choice of Starch, Poundo, Wheat, or Oat for a truly authentic and deeply satisfying meal that’s rich in cultural heritage.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/okra-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Okro soup with a choice of Poundo, wheat, Eba, Amala or Oat</span>
+                                                <span class="text-primary">$16</span>
+                                            </h5>
+                                            <small class="fst-italic">A classic Nigerian favorite, this flavorful soup is made with tender okra, seasoned with aromatic spices, and simmered with sea food, meat or fish for a rich and savory taste. Served with your choice of Poundo, Wheat, Eba, Amala, or Oat, this dish is loved for its smooth texture and wholesome goodness, perfect for a hearty, comforting meal.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/banga-soup-starch.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Banga Soup with Catfish & Starch </span>
+                                                <span class="text-primary">$18 </span>
+                                            </h5>
+                                            <small class="fst-italic">Experience the rich, earthy flavors of Banga Soup, a traditional dish made from fresh palm nut extract, infused with aromatic spices and herbs. Paired with succulent catfish, this soup offers a delicate balance of savory and spicy notes. Enjoy it with smooth, satisfying Starch for an authentic taste of the Niger Delta region.</small>
+                                            <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/peanut-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Peanut Soup with a choice of Fufu, Poundo or Rice balls </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A creamy and flavorful West African delicacy made from ground peanuts, simmered with rich spices and tender meat or fish for a comforting and savory experience. Served with your choice of Fufu, Poundo, or Rice Balls, this dish is a perfect blend of nutty flavors and hearty textures, offering a truly satisfying and nourishing meal.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/yam-pottage.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Yam Pottage </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A healthy and tasty dish produced with yam cubes cooked in a creamy, delicious sauce filled with spices and vegetables. This hearty pottage mixes the creamy smoothness of yam with a deliciously seasoned broth, giving it a filling meal suitable for any time of day.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/yam-egg-sauce.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Yam & Egg Sauce or Stew </span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A delightful combination of soft, boiled yam served with a rich and flavorful egg sauce or stew. This dish features scrambled eggs cooked in a delicious tomato and pepper sauce, creating a satisfying and hearty meal that perfectly complements the creamy texture of the yam.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/waakye.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Waakye</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A traditional Ghanaian dish made from rice and beans, cooked together for a unique flavor and hearty texture. Often served with a variety of accompaniments such as fried plantains, stewed meats, spicy pepper sauce, and boiled eggs, Waakye is a fulfilling meal that captures the essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/assorted-pepper-soup.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Assorted pepper soup</span>
+                                                <span class="text-primary">$18</span>
+                                            </h5>
+                                            <small class="fst-italic">A fragrant and spicy broth made with a mix of assorted meats, including goat, beef, and chicken, simmered with bold spices and aromatic herbs. This hearty and warming pepper soup is perfect as an appetizer or main dish, offering a delightful kick that is both comforting and invigorating.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/peppered-snail.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Peppered snail </span>
+                                                <span class="text-primary">$19</span>
+                                            </h5>
+                                            <small class="fst-italic">Succulent snails sautéed in a rich and spicy pepper sauce, infused with aromatic spices and herbs. This delicacy offers a unique combination of flavors and textures, making it a tantalizing appetizer or snack that highlights the bold essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/beef-suya.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Beef suya</span>
+                                                <span class="text-primary">$16</span>
+                                            </h5>
+                                            <small class="fst-italic">Deliciously spiced skewered beef, grilled to perfection and bursting with flavor. Marinated in a blend of traditional spices and chili, this popular Nigerian street food is served with fresh onions and tomatoes, offering a smoky, savory bite that’s both satisfying and irresistible.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center flex-lg-row flex-column">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/chicken-suya.jfif" alt="" style="width: 200px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4 mt-3 mt-lg-0">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken suya</span>
+                                                <span class="text-primary">$16</span>
+                                            </h5>
+                                            <small class="fst-italic">Pieces of chicken marinated in a rich blend of spices and grilled to perfection. This flavorful street food favorite is infused with a spicy kick and served with sliced onions and tomatoes, making it a deliciously satisfying snack or appetizer that captures the essence of West African cuisine.</small>
+                                             <a href="https://wa.me/qr/27VXNS5Q36FMG1" class="btn btn-primary py-2 px-4 mt-3">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
+                        <!-- dinner menu ends  -->
                     </div>
                 </div>
             </div>
@@ -440,22 +677,24 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="booking.html">Reservation</a>
+                        <!-- <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a> -->
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>405 Philip Blvd, Lawrenceville Georgia </p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 6782 322 223</p>
+                        <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a> -->
+                            <a class="btn btn-outline-light btn-social" href="https://wa.me/qr/27VXNS5Q36FMG1"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/divinehouserst"><i class="fab fa-instagram"></i></a>
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
+                            <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -467,7 +706,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <p>Subscribe to get latest updates</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -479,19 +718,19 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+                            &copy; <a class="border-bottom" href="#">www.devinehouseresturant.com</a>, All Right Reserved. 2024
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+							<!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
+                        <!-- <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>
                                 <a href="">FQAs</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
